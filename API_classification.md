@@ -118,3 +118,10 @@ Here we see the "zAc" and "zQc" parameters we have been using in our example.  T
 This was the element key used throughout this example.  For your own use, you would have to use specific keys from your Facility, and specific fully qualified property names.
 
 `AAAAAKljBWwVbUezt0cIIJETKaAAA9pl`
+
+
+## Legal Notice
+
+![CreativeCommons](./img/CreativeCommons.png)
+
+Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.

@@ -2,7 +2,7 @@
 
 # Autodesk Tandem APIs
 
-_Autodesk Tandem API is currently released under a beta program and subject to Autodesk Tandem API Public Beta Program Terms. To learn more, please go to Tandem API page at Autodesk Feedback Community:_ [Tandem Feedback Community](https://feedback.autodesk.com/project/home.html?cap=0951fbaea16047758976fdb0db4d4502)
+_Autodesk Tandem Model Service API is currently released under a beta program and subject to Autodesk Tandem API Public Beta Program Terms. To learn more, please go to Tandem API page at Autodesk Feedback Community:_ [Tandem Feedback Community](https://feedback.autodesk.com/project/home.html?cap=0951fbaea16047758976fdb0db4d4502)
 
 Tandem digital twins represent a hub of information about your facility and they establish the existence and location of assets within that facility. That foundation is critical, but any good digital twin will include integrations with other systems and will support programmatic management of the asset data. Therefore, API access to the Tandem data model is essential.  Over time, we plan to offer comprehensive APIs in several contexts to help developers customize and extend the foundational capabilities that the Tandem product provides.
 

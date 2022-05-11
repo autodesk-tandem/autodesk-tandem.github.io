@@ -2,20 +2,16 @@
 
 # Autodesk Tandem APIs
 
-_Autodesk Tandem Model Service API is currently released under a beta program and subject to Autodesk Tandem API Public Beta Program Terms. To learn more, please go to Tandem API page at Autodesk Feedback Community:_ [Tandem Feedback Community](https://feedback.autodesk.com/project/home.html?cap=0951fbaea16047758976fdb0db4d4502)
-
 Tandem digital twins represent a hub of information about your facility and they establish the existence and location of assets within that facility. That foundation is critical, but any good digital twin will include integrations with other systems and will support programmatic management of the asset data. Therefore, API access to the Tandem data model is essential.  Over time, we plan to offer comprehensive APIs in several contexts to help developers customize and extend the foundational capabilities that the Tandem product provides.
 
 ![API Contexts](./img/API_contexts.png)
 
 Sample code for each API context exists on GitHub: [Tandem API Samples](https://github.com/autodesk-tandem)
 
-_NOTE: Currently, these samples are marked "Private". To gain access, you will need to request that we add your GitHub username to the repository._
-
 The main read/write functions will not be very interesting until you learn how to setup a Facility, create user-defined Parameters, and map those parameters to assets using Classifications in a Facility Template.  To learn how to do that and to get started with the product, visit: [intandem.autodesk.com](https://intandem.autodesk.com/)
 
 ## REST API - Autodesk Tandem Model Service API (BETA)
-The REST API is the first one that will be officially supported.  It is the base level API that communicates with the Tandem data server and manages `create/read/write/delete` of property data for assets. These asset properties are also called "parameters" in the Tandem client app, and those names are interchangeable in this documentation.
+The REST API is the first context that will be officially supported.  It is the base level API that communicates with the Tandem data server and manages `create/read/write/delete` of property data for assets. These asset properties are also called "parameters" in the Tandem client app, and those names are interchangeable in this documentation.
 
 The REST API is a thin layer over the underlying Tandem database.  It is designed to be very efficient and powerful, but with that comes some slightly cryptic payloads and some calls that could cause unwanted changes to the facility data if not constructed properly.  We advise that you avoid calling endpoints that we mark with WARNINGs, and we advise that you do comprehensive testing on datasets that you can afford to recreate before deploying on critical datasets.
 
@@ -37,9 +33,9 @@ A sample project using the REST API can be found here: [REST Sample](https://git
 
 The Javascript SDK allows you to interact with the Tandem database via Javascript and in "Embedded Viewer" scenarios, similar to how developers use the Forge Viewer.
 
-This API is usable now (in fact the Tandem client uses it), but it is not officially released yet. As with other ALPHA releases, you should use only for prototyping purposes and not expect to release an official product. There will likely be some re-factoring to make it usable without instantiating the viewer itself, and there will likely be some new abstractions and helper functions added to make it easy to communicate with the Tandem database. 
+This API is usable now (in fact the Tandem client application uses it), but it is not officially released yet. As with other ALPHA releases, you should use only for prototyping purposes and not expect to release an official product. There will likely be some re-factoring to make it usable without instantiating the viewer itself, and there will likely be some new abstractions and helper functions added to make it easy to communicate with the Tandem database.
 
-Developers with experience using the Forge Viewer will be able to quickly get up to speed because the presentation layer is mostly the same.  However, the Tandem Viewer expects there to always be mulitple models loaded, so you should avoid any specific functions that assume only a single model. Accessing the data behind the visual geometry is powered by the Tandem Database instead of the traditional SVF format used by the Forge Viewer. That gives you access to things like Room and Space information, even when it spans across multiple source models. Using the Tandem database also means it is easy to add your own user-defined properties to assets in the model.
+Developers with experience using the Forge Viewer will be able to quickly get up to speed because the presentation layer is mostly the same.  However, the Tandem Viewer expects there to always be multiple models loaded, so you should avoid any specific functions that assume only a single model. Accessing the data behind the visual geometry is powered by the Tandem Database instead of the traditional SVF format used by the Forge Viewer. That gives you access to things like Room and Space information, even when it spans across multiple source models. Using the Tandem database also means it is easy to add your own user-defined properties to assets in the model.
 
 The Javascript SDK is not officially documented yet, but an interactive learning tool has been provided to help you experiment with the API. That learning tool and its source code can be found here: [Embedded Viewer Sample](https://github.com/autodesk-tandem/tandem-sample-emb-viewer)
 
@@ -48,11 +44,17 @@ The Javascript SDK is not officially documented yet, but an interactive learning
 
 Direct plug-ins to the Tandem product itself are envisioned for the future, but are not yet supported. There have been some experiments with lightweight integrations via a Crome browser plug-in.  A sample project has been included here: [Chrome Plugin Sample](https://github.com/autodesk-tandem/tandem-sample-chrome-ext).
 
-Autodesk does not support Tandem plug-ins at this time, however, so this sample is only provided as-is, with no support or guarantees.
+Autodesk does not support Tandem plug-ins at this time, however, so this sample is provided as-is, with no support or guarantees.
 
 
 ## Legal Notice
 
+Autodesk Tandem APIs are released as a public beta under the _AUTODESK TANDEM API PUBLIC BETA PROGRAM TERMS_. To learn more, please go to the Tandem API page at Autodesk Feedback Community: [Tandem Feedback Community](https://feedback.autodesk.com/project/home.html?cap=0951fbaea16047758976fdb0db4d4502)
+
+Please note, when you sign up for an Autodesk Forge account, you’ve agreed to Autodesk Forge Developer Terms of Service.
+
 ![CreativeCommons](./img/CreativeCommons.png)
 
-Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+Any related documentation is released under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+
+Any related sample code is released on GitHub under the Apache 2.0 license.

@@ -36,3 +36,11 @@ Note that the /mutate endpoint can take any combination of mutations as long as 
 ![Mutate_05](./img/mutate_05.png)
 
 _NOTE: /mutate works on a per-model basis, so if you have 3 models loaded and have elements from each model you want to change properties for, you need to call it 3 separate times._
+
+
+## Legal Notice
+
+![CreativeCommons](./img/CreativeCommons.png)
+
+Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+

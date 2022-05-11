@@ -85,3 +85,11 @@ As an example of how to use the Flag field to check if this is a user-defined pr
 ![Attrs_08](./img/attrs_08.png)
 
 NOTE: see the sample project for running code that builds this mapping table and has the enums defined: [Sample REST project](https://github.com/autodesk-tandem/tandem-sample-rest)
+
+
+## Legal Notice
+
+![CreativeCommons](./img/CreativeCommons.png)
+
+Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+

@@ -6,8 +6,6 @@ Tandem digital twins represent a hub of information about your facility and they
 
 ![API Contexts](./img/API_contexts.png)
 
-_Disclaimer: Roadmaps are plans, not promises. The development, releases, and timing of any features or functionality remains at our sole discretion. These roadmap updates should not be used to make purchasing decisions._
-
 Sample code for each API context exists on GitHub: [Tandem API Samples](https://github.com/autodesk-tandem)
 
 The main read/write functions will not be very interesting until you learn how to setup a Facility, create user-defined Parameters, and map those parameters to assets using Classifications in a Facility Template.  To learn how to do that and to get started with the product, visit: [intandem.autodesk.com](https://intandem.autodesk.com/)
@@ -60,3 +58,5 @@ Please note, when you sign up for an Autodesk Forge account, you’ve agreed to 
 Any related documentation is released under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
 
 Any related sample code is released on [GitHub](https://github.com/autodesk-tandem) under the Apache 2.0 license.
+
+Roadmaps are plans, not promises. The development, release, and timing of any features or functionality remains at our sole discretion. Roadmaps should not be used to make purchasing decisions.

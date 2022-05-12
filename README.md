@@ -1,10 +1,12 @@
 ![Tandem API](./img/TandemLogo.png)
 
-# Autodesk Tandem APIs
+# Autodesk Tandem APIs (BETA)
 
 Tandem digital twins represent a hub of information about your facility and they establish the existence and location of assets within that facility. That foundation is critical, but any good digital twin will include integrations with other systems and will support programmatic management of the asset data. Therefore, API access to the Tandem data model is essential.  Over time, we plan to offer comprehensive APIs in several contexts to help developers customize and extend the foundational capabilities that the Tandem product provides.
 
 ![API Contexts](./img/API_contexts.png)
+
+_Disclaimer: Roadmaps are plans, not promises. The development, releases, and timing of any features or functionality remains at our sole discretion. These roadmap updates should not be used to make purchasing decisions._
 
 Sample code for each API context exists on GitHub: [Tandem API Samples](https://github.com/autodesk-tandem)
 
@@ -51,10 +53,10 @@ Autodesk does not support Tandem plug-ins at this time, however, so this sample 
 
 Autodesk Tandem APIs are released as a public beta under the _AUTODESK TANDEM API PUBLIC BETA PROGRAM TERMS_. To learn more, please go to the Tandem API page at Autodesk Feedback Community: [Tandem Feedback Community](https://feedback.autodesk.com/project/home.html?cap=0951fbaea16047758976fdb0db4d4502)
 
-Please note, when you sign up for an Autodesk Forge account, you’ve agreed to Autodesk Forge Developer Terms of Service.
+Please note, when you sign up for an Autodesk Forge account, you’ve agreed to [Autodesk Forge Developer Terms of Service](https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/forge-platform-web-services-api-terms-of-service).
 
 ![CreativeCommons](./img/CreativeCommons.png)
 
 Any related documentation is released under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
 
-Any related sample code is released on GitHub under the Apache 2.0 license.
+Any related sample code is released on [GitHub](https://github.com/autodesk-tandem) under the Apache 2.0 license.

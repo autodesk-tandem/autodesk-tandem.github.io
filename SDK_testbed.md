@@ -3,9 +3,9 @@ title: Javascript SDK
 has_children: false
 nav_order: 3
 ---
-# Tandem Viewer TestBed
+# Javascript SDK
 
-## Overview
+## Tandem Viewer TestBed
 
 Repo: ![https://github.com/autodesk-tandem/tandem-sample-emb-viewer/](https://github.com/autodesk-tandem/tandem-sample-emb-viewer)
 

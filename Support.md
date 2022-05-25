@@ -4,7 +4,9 @@ has_children: false
 nav_order: 4
 ---
 
-# Have a Question ?
+# Support
+
+## Have a Question ?
 
 If you have a question on how to do something, chances are, someone else has asked it already, on StackOverflow.
 
@@ -16,14 +18,14 @@ For private questions, email forge.help@autodesk.com
 
 
 
-# See a typo in the API documentation ?
+## See a typo in the API documentation ?
 
 This website, along with the samples, are all generated and hosted on github pages, with source code [here](https://github.com/autodesk-tandem/autodesk-tandem.github.io).
 
 To provide feedback or report an issue, with this website, add a github ticket [here](https://github.com/autodesk-tandem/autodesk-tandem.github.io/issues).
 
 
-# Service is Down ?
+## Service is Down ?
 
 If the Tandem Servers are not responding or you suspect there is a problem with the Tandem Services, check the health dashboard for the current status:
 

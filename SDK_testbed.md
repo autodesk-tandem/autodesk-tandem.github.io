@@ -1,8 +1,6 @@
 ---
-title: TestBed Sample
-parent: Javascript SDK
-has_children: false
-nav_order: 1
+title: Javascript SDK
+nav_order: 3
 ---
 # Tandem Viewer TestBed
 

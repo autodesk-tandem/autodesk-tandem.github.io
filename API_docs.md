@@ -51,11 +51,3 @@ You can also use the value for `signedLink` (as in the image above) to show the 
 The document can be deleted using the Tandem document URN and the following endpoint: `DELETE /twins/:twinID/documents/:documentID`
 
 ![Docs_13](./img/docs_13.png)
-
-
-## Legal Notice
-
-![CreativeCommons](./img/CreativeCommons.png)
-
-Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
-

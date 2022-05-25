@@ -53,9 +53,3 @@ For a complex call like /scan, there are several variants stored as examples.  Y
 
 ![Postman_10](./img/postman_10.png)
 
-
-## Legal Notice
-
-![CreativeCommons](./img/CreativeCommons.png)
-
-Except where otherwise noted, documentation provided in connection with Tandem Model Service API is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.

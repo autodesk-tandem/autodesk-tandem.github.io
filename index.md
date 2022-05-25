@@ -59,8 +59,10 @@ Please note, when you sign up for an Autodesk Forge account, you’ve agreed to 
 
 ![CreativeCommons](./img/CreativeCommons.png)
 
-Any related documentation is released under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+Any related documentation is released under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/). 
 
-Any related sample code is released on [GitHub](https://github.com/autodesk-tandem) under the Apache 2.0 license.
+Please see the [Autodesk Creative Commons FAQ](https://knowledge.autodesk.com/customer-service/share-the-knowledge) for more information.
+
+Any related sample code is released on [GitHub](https://github.com/autodesk-tandem) under the [Apache 2.0 license](https://github.com/autodesk-tandem/tandem-sample-emb-viewer/blob/master/LICENSE.txt).
 
 Roadmaps are plans, not promises. The development, release, and timing of any features or functionality remains at our sole discretion. Roadmaps should not be used to make purchasing decisions.

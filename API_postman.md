@@ -1,5 +1,5 @@
 ---
-title: Postman Collection
+title: Postman
 parent: Rest APIs
 has_children: false
 nav_order: 1

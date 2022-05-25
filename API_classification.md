@@ -1,8 +1,8 @@
 ---
-title: Assigning Parameters
+title: Assign Parameters
 parent: Rest APIs
 has_children: false
-nav_order: 2
+nav_order: 5
 ---
 ## Assigning Classifications and Parameters
 

@@ -1,8 +1,8 @@
 ---
-title: Write properties
+title: Write
 parent: Rest APIs
 has_children: false
-nav_order: 6
+nav_order: 4
 ---
 ## Write properties - /mutate
 

@@ -1,8 +1,8 @@
 ---
-title: Read properties
+title: Read
 parent: Rest APIs
 has_children: false
-nav_order: 5
+nav_order: 3
 ---
 ## Reading properties - /scan
 

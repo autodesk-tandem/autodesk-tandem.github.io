@@ -1,3 +1,31 @@
-theme: jekyll-theme-slate
-name: ""
-title: null
+remote_theme: just-the-docs/just-the-docs
+logo: "https://github.com/autodesk-tandem/autodesk-tandem.github.io/raw/main/img/TandemLogo.png"
+heading_anchors: true
+search_enabled: true
+footer_content: "<a href=\"https://github.com/autodesk-tandem/autodesk-tandem.github.io/issues\">Report an issue</a> with this page. <a href=\"https://stackoverflow.com/questions/tagged/autodesk-tandem\">Ask a Question</a> on StackOverflow"
+aux_links:
+  "APIs on Postman":
+    - "https://documenter.getpostman.com/view/15787353/UVeFMRdB"
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false

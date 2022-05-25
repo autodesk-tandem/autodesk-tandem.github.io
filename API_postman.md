@@ -1,3 +1,10 @@
+---
+title: Postman Collection
+parent: Rest APIs
+has_children: false
+nav_order: 1
+---
+
 ## Tandem API Postman Collection
 
 Find the Postman  collection here: [Postman Collection](https://documenter.getpostman.com/view/15787353/UVeFMRdB)

@@ -1,3 +1,9 @@
+---
+title: Read properties
+parent: Rest APIs
+has_children: false
+nav_order: 5
+---
 ## Reading properties - /scan
 
 The /scan endpoint is used to retrieve property data from the backend database.  The API is designed to be very efficient and therefore is not very developer friendly on first use.  At a later date, the plan is to provide an abstraction layer that makes this easier to use.

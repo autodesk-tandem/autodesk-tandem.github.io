@@ -1,3 +1,9 @@
+---
+title: Assigning Parameters
+parent: Rest APIs
+has_children: false
+nav_order: 2
+---
 ## Assigning Classifications and Parameters
 
 We will examine this from the inside out, starting with just assigning a Classification to the element and well-known, fully qualified property names.  Those methods are well established and unlikely to change.  How to setup the Classifications and ParameterSets is a little more complicated and the methods are still evolving at the current time.

@@ -1,3 +1,9 @@
+---
+title: Write properties
+parent: Rest APIs
+has_children: false
+nav_order: 6
+---
 ## Write properties - /mutate
 
 The /mutate endpoint is used to update property values in the Tandem database.  It is currently designed to be efficient for bulk updates from the Tandem client app and is therefore somewhat cryptic.  It takes several arguments of arrays that are expected to match in length:

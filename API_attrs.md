@@ -1,3 +1,9 @@
+---
+title: Qualified Properties
+parent: Rest APIs
+has_children: false
+nav_order: 3
+---
 ## Qualified properties
 
 The /attrs and /schema endpoints are used to retrieve information about the properties that are available within Tandem.  Some properties are read-only and come from the design source files (e.g. Revit, IFC).  Other properties are defined in Tandem by the user and are read/write.

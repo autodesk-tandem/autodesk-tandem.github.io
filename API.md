@@ -4,7 +4,9 @@ has_children: true
 nav_order: 2
 ---
 
-## REST API - Autodesk Tandem Model Service API (BETA)
+# REST API 
+
+## Autodesk Tandem Model Service API (BETA)
 
 The REST API is the first context that will be officially supported.  It is the base level API that communicates with the Tandem data server and manages `create/read/write/delete` of property data for assets. These asset properties are also called "parameters" in the Tandem client app, and those names are interchangeable in this documentation.
 

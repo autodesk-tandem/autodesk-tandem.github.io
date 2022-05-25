@@ -14,7 +14,7 @@ Take a look at the questions here: [StackOverflow / Autodesk-Tandem](https://sta
 
 Add your own question to Stackoverflow, using the tag `[Autodesk Tandem]`.
 
-For private questions, email [tandem-api-support@autodesk.com](tandem-api-support@autodesk.com)
+For private questions, email [tandem-api-support@autodesk.com](mailto:tandem-api-support@autodesk.com)
 
 
 

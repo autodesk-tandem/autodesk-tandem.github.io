@@ -1,5 +1,6 @@
 ---
 title: Support
+has_children: false
 nav_order: 4
 ---
 
